@@ -3,10 +3,11 @@
     margin: 0;
     box-sizing: border-box;
 }
-body, html{
+body{
     font-family: "poppins", "sans-serif";
-    scroll-behavior: smooth;
+    
 }
+html{ scroll-behavior: smooth;}
 p{
     color: #555555;
 }
@@ -20,7 +21,7 @@ nav{
     justify-content: space-around;
     align-items: center;
     height: 17vh;
-   text-transform: capitalize;
+    text-transform: capitalize;
 }
 .nav-links{
     gap: 2rem;
@@ -30,11 +31,11 @@ nav{
 a{
     color: #1a1a1a;
     text-decoration: none;
-    text-decoration-color: #fafafa;
+    text-decoration-color: #808080
 }
 a:hover {
     /* color: #464444; */
-    color: #808080;
+    color:#808080;
     text-decoration: underline; 
     text-underline-offset: 1rem;
     text-decoration-color: #808080;
